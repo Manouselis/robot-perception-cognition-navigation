@@ -28,14 +28,14 @@ jobs:
     - name: Convert Writeup to Images
       uses: jruipinto/ImageMagick-action@v1
       with:
-        command: convert -density ${{env.DPI}} -trim -colorspace sRGB -alpha remove RPCN_Individual_Calibration_Parameters.pdf -quality ${{env.QUALITY}} output-%03d.jpg
+        command: convert -density ${{env.DPI}} -trim -colorspace sRGB -alpha remove "Individual Assignment (Calibration of Parameters)/RPCN_Individual_Calibration_Parameters.pdf" -quality ${{env.QUALITY}} output-%03d.jpg
 
     ## COMMIT THEM TO A ORPHAN BRANCH
     - name: Commit images to orphan branch
       run: | 
         git checkout --orphan ${{env.ORPHAN_BRANCH}}
-        touch .README.md
-        mv .README.md .README.temp
+        touch ".README.md"
+        mv ".README.md" ".README.temp"
         git rm -rf .
         git add *.jpg
         git config --local user.email "action@github.com"
@@ -52,13 +52,13 @@ jobs:
     - name: Update Readme
       id: main
       run: |
-        echo $'\n' >> .README.temp
+        echo $'\n' >> ".README.temp"
         for filename in *.jpg; do \
-          echo '![image](https://github.com/'$GITHUB_REPOSITORY'/blob/${{env.ORPHAN_BRANCH}}/'$filename'?raw=true)' >> .README.temp;  \
+          echo '![image](https://github.com/'$GITHUB_REPOSITORY'/blob/${{env.ORPHAN_BRANCH}}/"Individual Assignment (Calibration of Parameters)/'$filename'?raw=true)' >> ".README.temp";  \
         done
         git checkout ${{ github.ref }}
         rm README.md || (exit 0)
-        mv .README.temp README.md
+        mv ".README.temp" README.md
         OUTPUT=0
         git diff --exit-code README.md || OUTPUT=$?
         echo "::set-output name=OUTPUT::$OUTPUT"
