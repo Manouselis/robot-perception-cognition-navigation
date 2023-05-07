@@ -6,4 +6,4 @@ Enter an integer between 1 and 5 to proceed.
 
 <embed src="https://raw.githubusercontent.com/Manouselis/robot-perception-cognition-navigation/main/Individual%20Assignment%20(Calibration%20of%20Parameters)/RPCN_Individual_Calibration_Parameters.pdf" type="application/pdf">
 
-<object data="https://raw.githubusercontent.com/Manouselis/robot-perception-cognition-navigation/main/Individual%20Assignment%20(Calibration%20of%20Parameters)/RPCN_Individual_Calibration_Parameters.pdf" type="application/pdf" width="100%"></object>
+
