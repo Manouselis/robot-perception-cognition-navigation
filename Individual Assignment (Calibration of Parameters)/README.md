@@ -4,4 +4,4 @@
 3. At some point the user is prompted to enter an input (for which experiment (1-5) he/her wants to calculate the calibration parameters). 
 Enter an integer between 1 and 5 to proceed.
 
-<iframe src="https://docs.google.com/viewer?url=https://github.com/Manouselis/robot-perception-cognition-navigation/blob/main/Individual%20Assignment%20(Calibration%20of%20Parameters)/RPCN_Individual_Calibration_Parameters.pdf&embedded=true" width="600" height="780" style="border: none;"></iframe>
+<object data="https://github.com/Manouselis/robot-perception-cognition-navigation/blob/main/Individual%20Assignment%20(Calibration%20of%20Parameters)/RPCN_Individual_Calibration_Parameters.pdf" type="application/pdf" width="100%"> </object>
