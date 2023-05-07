@@ -9,4 +9,4 @@ Enter an integer between 1 and 5 to proceed.
 <object data="https://github.com/Manouselis/robot-perception-cognition-navigation/blob/main/Individual%20Assignment%20(Calibration%20of%20Parameters)/RPCN_Individual_Calibration_Parameters.pdf" type="application/pdf" width="100%">
 </object>
 
-<iframe width="100%" height="800" src="https://github.com/Manouselis/robot-perception-cognition-navigation/blob/main/Individual%20Assignment%20(Calibration%20of%20Parameters)/RPCN_Individual_Calibration_Parameters.pdf" type="application/pdf">
+<iframe width="100%" height="800" src="https://github.com/Manouselis/robot-perception-cognition-navigation/blob/main/Individual%20Assignment%20(Calibration%20of%20Parameters)/RPCN_Individual_Calibration_Parameters.pdf">
